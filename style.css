@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(235, 235, 235);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+  position: relative;
+  width: 350px;
+  height: auto;
+  padding: 2rem;
+  margin: 2rem auto;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 20px #ccc;
+}
+
+.form input,
+button {
+  background-color: rgb(235, 235, 235);
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  outline-color: rgb(147, 93, 194);
+  margin-bottom: 1.5rem;
+}
+
+.form button {
+  background-color: rgb(159, 117, 197);
+  color: #fff;
+  font-weight: bold;
+}
+
+.form button:hover {
+  background-color: rgb(147, 93, 194);
+}
+
+.resultado {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.resultado h3 {
+  text-align: center;
+}
+
+.resultado div p {
+  font-weight: bold;
+}
+
+.resultado .dados {
+  margin-bottom: 2rem;
+}
